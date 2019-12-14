@@ -1,0 +1,53 @@
+$columns: 12;
+$xs: 260px;
+$md: 768px;
+$lg: 1200px;
+
+@mixin web {
+  @media screen and (min-width: #{$lg}) {
+    // max : when the viewport size is <= 599px.
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: #{$md}) {
+    //600
+    @content;
+  }
+}
+
+
+
+@mixin create-col($size, $columns) {
+  flex: 0 0 percentage($size / $columns);
+  max-width: percentage($size / $columns);
+  position: relative;
+  width: 100%;
+}
+
+$screens: (
+  xs: $xs,
+  md: $md,
+  lg: $lg
+);
+
+@each $key, $value in $screens {
+  @media screen and (min-width: $value) {
+    @for $i from 1 through $columns {
+      .col-#{$key}-#{$i} {
+        @include create-col($i, $columns);
+      }
+    }
+  }
+}
+
+// @mixin create-grif($sceen-size, $name) {
+//   @media (min-width: $sceen-size) {
+//     @for $i from 1 through $columns {
+//       .col-#{$name}-#{$i} {
+//         @include create-col($i, $columns);
+//       }
+//     }
+//   }
+// }

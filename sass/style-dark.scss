@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+html, body {
+    height: 100%;
+    background-color: rgb(247, 247, 247);
+  }
+  
+  body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+  }
+$fontStack: 'Roboto', sans-serif;
+$backGroundColor: #202325;
+$lineColor: #2d2d2d;
+$mainColor: #95898E;
+$subcontentColor: #D9D7DA;
+$highLightColor: #0c8c92;
+$defaultMargin: 20px;
+$titleFontSize: 20px;
+$subtitleFontSize: $titleFontSize * 0.8;
+$tinyFontSize: 10px;
+$coverMaxHeight: 400px;
+
+@import 'mixin.scss';
+@import 'my-grid.scss';
+@import 'base.scss';
+@import 'player.scss';
+@import 'music-list.scss';
+@import 'player-control.scss';
+ 

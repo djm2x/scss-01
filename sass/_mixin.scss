@@ -1,0 +1,13 @@
+
+
+@mixin flex-column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: center;
+    @content;
+  }
+  
+  @mixin blur($value) {
+    filter: blur($value);
+  }

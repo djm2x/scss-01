@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+html, body {
+  height: 100%;
+  background-color: #f7f7f7; }
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@media screen and (min-width: 260px) {
+  .col-xs-1 {
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%;
+    position: relative;
+    width: 100%; }
+  .col-xs-2 {
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+    position: relative;
+    width: 100%; }
+  .col-xs-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+    position: relative;
+    width: 100%; }
+  .col-xs-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+    position: relative;
+    width: 100%; }
+  .col-xs-5 {
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+    position: relative;
+    width: 100%; }
+  .col-xs-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%; }
+  .col-xs-7 {
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+    position: relative;
+    width: 100%; }
+  .col-xs-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+    position: relative;
+    width: 100%; }
+  .col-xs-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+    position: relative;
+    width: 100%; }
+  .col-xs-10 {
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+    position: relative;
+    width: 100%; }
+  .col-xs-11 {
+    flex: 0 0 91.66667%;
+    max-width: 91.66667%;
+    position: relative;
+    width: 100%; }
+  .col-xs-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%; } }
+
+@media screen and (min-width: 768px) {
+  .col-md-1 {
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%;
+    position: relative;
+    width: 100%; }
+  .col-md-2 {
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+    position: relative;
+    width: 100%; }
+  .col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+    position: relative;
+    width: 100%; }
+  .col-md-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+    position: relative;
+    width: 100%; }
+  .col-md-5 {
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+    position: relative;
+    width: 100%; }
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%; }
+  .col-md-7 {
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+    position: relative;
+    width: 100%; }
+  .col-md-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+    position: relative;
+    width: 100%; }
+  .col-md-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+    position: relative;
+    width: 100%; }
+  .col-md-10 {
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+    position: relative;
+    width: 100%; }
+  .col-md-11 {
+    flex: 0 0 91.66667%;
+    max-width: 91.66667%;
+    position: relative;
+    width: 100%; }
+  .col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%; } }
+
+@media screen and (min-width: 1200px) {
+  .col-lg-1 {
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%;
+    position: relative;
+    width: 100%; }
+  .col-lg-2 {
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+    position: relative;
+    width: 100%; }
+  .col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+    position: relative;
+    width: 100%; }
+  .col-lg-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+    position: relative;
+    width: 100%; }
+  .col-lg-5 {
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+    position: relative;
+    width: 100%; }
+  .col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%; }
+  .col-lg-7 {
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+    position: relative;
+    width: 100%; }
+  .col-lg-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+    position: relative;
+    width: 100%; }
+  .col-lg-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+    position: relative;
+    width: 100%; }
+  .col-lg-10 {
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+    position: relative;
+    width: 100%; }
+  .col-lg-11 {
+    flex: 0 0 91.66667%;
+    max-width: 91.66667%;
+    position: relative;
+    width: 100%; }
+  .col-lg-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%; } }
+
+html, body {
+  height: 100%; }
+
+body {
+  margin: 0; }
+
+#btn {
+  position: fixed;
+  z-index: 5;
+  left: 5px;
+  top: 50vh;
+  border-radius: 50px;
+  padding: 10px;
+  background-color: #0c8c92;
+  box-shadow: 1px 2px 10px #95898E;
+  cursor: pointer; }
+
+.title {
+  font-size: 20px;
+  color: #95898E;
+  font-weight: bold; }
+
+.album,
+.artist {
+  font-size: 16px;
+  font-style: italic;
+  color: #95898E;
+  font-weight: bold; }
+
+hr {
+  border-top: 1px solid #95898E;
+  width: 100vw; }
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.player {
+  position: relative;
+  z-index: 1;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .player:before {
+    background: url("../assets/img.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    content: "";
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    right: 0;
+    height: 100%;
+    left: 0;
+    filter: blur(5px);
+    transform: scale(1.5);
+    background-color: black; }
+  .player .background {
+    position: absolute;
+    background-color: #202325;
+    z-index: -1;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%; }
+  .player .music-info {
+    text-align: center;
+    z-index: 2; }
+  .player .cover {
+    z-index: 2;
+    display: flex; }
+    .player .cover img {
+      width: 60%;
+      margin: 1px auto 20px; }
+  .player .my-progress {
+    position: absolute;
+    bottom: 0;
+    width: 100%; }
+    .player .my-progress .fill-info {
+      display: flex;
+      justify-content: flex-end;
+      font-size: 0.8em;
+      margin-right: 5px;
+      color: #95898E; }
+    .player .my-progress .progress {
+      display: flex;
+      height: 3px;
+      background-color: #D9D7DA; }
+      .player .my-progress .progress .progress-bar {
+        background: #0c8c92; }
+
+@media screen and (min-width: 1200px) {
+  .player .cover img {
+    width: 350px; } }
+
+@media screen and (min-width: 768px) {
+  .player .cover img {
+    width: 350px; } }
+
+.music-list {
+  background-color: #202325;
+  padding-top: 20px;
+  position: relative;
+  z-index: 2;
+  padding-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap; }
+  .music-list .item {
+    display: flex;
+    flex: 0 0 100%;
+    align-items: flex-end;
+    box-shadow: 0px 24px 3px -24px #95898E;
+    padding-bottom: 20px; }
+    .music-list .item .cover {
+      display: none; }
+      @media screen and (min-width: 768px) {
+        .music-list .item .cover {
+          display: block; }
+          .music-list .item .cover img {
+            width: 40px; } }
+    .music-list .item .music-info h3 {
+      font-weight: bold; }
+    .music-list .item .music-info h4 {
+      margin: 0;
+      line-height: 15px; }
+      .music-list .item .music-info h4 span {
+        color: #D9D7DA;
+        font-weight: normal; }
+    .music-list .item .duration {
+      color: #95898E; }
+
+.player-control {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  z-index: 5;
+  bottom: 0;
+  width: 100vw;
+  font-size: 1.7em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #0c8c92;
+  color: #D9D7DA; }
+
+/*# sourceMappingURL=style-dark.css.map */

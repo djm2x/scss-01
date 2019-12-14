@@ -1,0 +1,83 @@
+.player {
+  position: relative;
+  z-index: 1;
+  height: 70vh;
+  @include flex-column-center;
+
+  &:before {
+    background: url("../assets/img.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    content: "";
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    right: 0;
+    height: 100%;
+    left: 0;
+    @include blur(5px);
+    transform: scale(1.5);
+    background-color: black;
+  }
+
+  .background {
+    position: absolute;
+    background-color: $backGroundColor;
+    z-index: -1;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+  }
+
+  .music-info {
+    text-align: center;
+    z-index: 2;
+  }
+
+  .cover {
+    z-index: 2;
+    // @include flex-column-center {
+    // margin: 5px 1rem 10px;
+    // }
+    display: flex;
+    img {
+      width: 60%;
+      margin: 1px auto 20px;
+    }
+  }
+  .my-progress {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    .fill-info {
+      display: flex;
+      justify-content: flex-end;
+      font-size: 0.8em;
+      margin-right: 5px;
+      color: $mainColor;
+    }
+    .progress {
+      // position: relative;
+      // z-index: 3;
+      display: flex;
+      // flex-direction: column;
+      height: 3px;
+      background-color: $subcontentColor;
+      .progress-bar {
+        background: $highLightColor;
+      }
+    }
+  }
+}
+
+@include web {
+  .player .cover img {
+    width: 350px;
+  }
+}
+
+@include desktop {
+  .player .cover img {
+    width: 350px;
+  }
+}

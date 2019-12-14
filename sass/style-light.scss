@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+$fontStack: 'Roboto', sans-serif;
+$backGroundColor: white;
+$lineColor: #eaeaea;
+$mainColor: #3e3e3e;
+$subcontentColor: #656565;
+$highLightColor: #ffa500;
+$defaultMargin: 15px;
+$titleFontSize: 20px;
+$subtitleFontSize: $titleFontSize * 0.8;
+$tinyFontSize: 10px;
+$coverMaxHeight: 400px;
+
+@import 'mixin.scss';
+@import 'my-grid.scss';
+@import 'base.scss';
+@import 'player.scss';
+@import 'music-list.scss';
+@import 'player-control.scss';
+
+

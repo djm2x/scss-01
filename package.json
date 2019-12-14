@@ -1,0 +1,18 @@
+{
+  "name": "pro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node-sass --watch --recursive --output css --source-map true --source-map-contents sass",
+    "init": "git init && git remote add origin https://github.com/djm2x/scss-01.git",
+    "push": "git add . && git commit -m \"first commit\" && git push -u origin master"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
